@@ -33,7 +33,7 @@ function Header() {
             <a className="hover:underline decoration-gray-400" href="#contact"> Contact</a>
           </li>
           <li>
-            <Button title="Resume" link="/api/resumeDownload" />
+            <Button title="Resume" link="api/resumeDownload" />
           </li>
           {/* <li>
             <button>
