@@ -36,7 +36,7 @@ export default function Experience() {
                     Full-time
                   </div>
                   <div className="text-sm font-light">
-                    From July 2023 to Present
+                    From May 2022 to Present
                   </div>
                 </td>
               </tr>
@@ -52,7 +52,7 @@ export default function Experience() {
                     Full-time
                   </div>
                   <div className="text-sm font-light">
-                    From July 2023 to Present
+                    From July 2021 to May 2022
                   </div>
                 </td>
               </tr>
@@ -80,7 +80,7 @@ export default function Experience() {
                     Let IT Grow <span className="text-gray-500 text-sm font-normal">(Full-time)</span>
                   </div>
                   <div className="text-sm font-light">
-                    From July 2023 to Present
+                    From August 2020 to July 2021
                   </div>
                 </td>
               </tr>
