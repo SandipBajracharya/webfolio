@@ -70,7 +70,7 @@ function Header() {
                 Contact
               </a>
             </li>
-            <li>
+            <li className="my-2">
               <Button title="Resume" link="files/Sandeep_Bajracharya_CV.pdf" download={true} />
             </li>
           </ul>

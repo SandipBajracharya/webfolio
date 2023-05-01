@@ -13,8 +13,8 @@ import Button from '@/components/Button';
 export default function Home() {
   return (
     <>
-      <section className=" flex justify-center items-center min-h-screen">
-        <div className="text-center sm:text-4xl text-2xl font-semibold mx-auto">
+      <section className=" flex justify-center items-center min-h-fit py-16">
+        <div className="text-center sm:text-4xl text-3xl font-semibold mx-auto">
           <div className=" text-gray-700">
             Hi! my name is Sandeep Bajracharya.
           </div>
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="mx-auto text-lg font-normal text-gray-500 mb-4 max-w-xl">
             <div className="flex justify-center items-center">
-              &quot;It works on my machine!!&quot;
+              &quot;It works on my machine!&quot;
               <FaRegGrinTongueWink className="ml-1"/>
             </div>
           </div>
