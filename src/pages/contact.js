@@ -26,7 +26,7 @@ export default function Contact() {
               </a>
             </div>
             <div className="flex justify-center mt-4">
-              <Button title="Download Resume" link="api/resumeDownload" />
+              <Button title="Download Resume" link="files/Sandeep_Bajracharya_CV.pdf" download={true}/>
             </div>
           </div>
         </div>

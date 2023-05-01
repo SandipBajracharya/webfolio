@@ -33,7 +33,7 @@ function Header() {
             <a className="hover:underline decoration-gray-400" href="#contact"> Contact</a>
           </li>
           <li>
-            <Button title="Resume" link="api/resumeDownload" />
+            <Button title="Resume" link="files/Sandeep_Bajracharya_CV.pdf" download={true}/>
           </li>
           {/* <li>
             <button>
@@ -71,9 +71,7 @@ function Header() {
               </a>
             </li>
             <li>
-              <button className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm px-4 py-2 border-none rounded-md ml-3 my-2">
-                Resume
-              </button>
+              <Button title="Resume" link="files/Sandeep_Bajracharya_CV.pdf" download={true} />
             </li>
           </ul>
         </div>
