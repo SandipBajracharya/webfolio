@@ -23,14 +23,14 @@ function Header(props) {
               toggleDark? (
                 <button>
                   <BsFillSunFill 
-                    className=" text-2xl ml-5"
+                    className=" text-2xl"
                     onClick={() => setToggleDark(!toggleDark)}
                   />
                 </button>
               ) : (
                 <button>
                   <BsFillMoonStarsFill 
-                    className=" text-xl ml-5"
+                    className=" text-xl"
                     onClick={() => setToggleDark(!toggleDark)}
                   />
                 </button>
