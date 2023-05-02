@@ -6,7 +6,6 @@ import About from './about';
 import Experience from './experience';
 import Contact from './contact';
 import Skills from './skills';
-import { FaRegGrinTongueWink } from 'react-icons/fa';
 
 import Button from '@/components/Button';
 
@@ -15,19 +14,18 @@ export default function Home() {
     <>
       <section className=" flex justify-center items-center min-h-fit py-16">
         <div className="text-center sm:text-4xl text-3xl font-semibold mx-auto">
-          <div className=" text-gray-700">
+          <div className=" text-gray-700 dark:text-slate-200">
             Hi! my name is Sandeep Bajracharya.
           </div>
           <div className="mt-4 text-teal-600">
-            I&apos;m a Software Engineer.
+            I&apos;m a Full-Stack Developer.
           </div>
           <div className="mx-auto rounded-full sm:w-60 sm:h-60 w-40 h-40 relative overflow-hidden my-8">
             <Image src={profilePic} layout="fill" objectFit="cover" alt="Profile picture" />
           </div>
-          <div className="mx-auto text-lg font-normal text-gray-500 mb-4 max-w-xl">
+          <div className="mx-auto text-lg font-normal text-gray-500 mb-4 max-w-xl dark:text-slate-200">
             <div className="flex justify-center items-center">
-              &quot;It works on my machine!&quot;
-              <FaRegGrinTongueWink className="ml-1"/>
+              A passionate developer from Kathmandu, Nepal.
             </div>
           </div>
           <div>

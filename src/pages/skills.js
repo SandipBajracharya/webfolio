@@ -17,11 +17,11 @@ import Image from 'next/image';
 export default function Skills() {
   return (
     <>
-      <section className="container max-w-4xl mx-auto text-xl font-semibold text-gray-700 mt-12" id="skills">
+      <section className="container max-w-4xl mx-auto text-xl font-semibold text-gray-700 mt-12 dark:text-slate-200" id="skills">
         <span className=" text-teal-600">02 </span>
         Skills
         <hr />
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 font-normal text-base text-gray-700 pt-10 pb-2 skill">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 font-normal text-base text-gray-700 pt-10 pb-2 skill dark:bg-slate-100 dark:rounded-es-lg dark:rounded-ee-lg">
           <div className="flex justify-center items-center mb-8">
             <Image src={reactLogo} className="skill-logo" title="React.js" alt="React.js" />
           </div>

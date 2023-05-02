@@ -10,8 +10,8 @@ module.exports = {
       ...colors,
       primary: "#413b88",
       "primary-800": "#2f2b63",
-      secondary: "#ae2d68",
-      "secondary-800": "#660f56",
+      secondary: "#222",
+      "secondary-800": "#171717",
     },
     extend: {
       fontFamily: {

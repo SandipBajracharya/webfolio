@@ -48,6 +48,8 @@ a {
 
 table tr td:first-child {
   width: 100px;
+  border-radius: 5px;
+  padding: 2px 4px;
 }
 
 .logos {
